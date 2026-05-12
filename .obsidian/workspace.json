@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CLAUDE.md",
+                "file": "notes/boring-businesses-create-billionaires.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CLAUDE"
+              "title": "boring-businesses-create-billionaires"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CLAUDE.md",
+                "file": "notes/boring-businesses-create-billionaires.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Rétrolien pour CLAUDE"
+              "title": "Rétrolien pour boring-businesses-create-billionaires"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CLAUDE.md",
+                "file": "notes/boring-businesses-create-billionaires.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Liens sortants de CLAUDE"
+              "title": "Liens sortants de boring-businesses-create-billionaires"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CLAUDE.md",
+                "file": "notes/boring-businesses-create-billionaires.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Plan de CLAUDE"
+              "title": "Plan de boring-businesses-create-billionaires"
             }
           }
         ]
@@ -184,13 +184,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e12ed34e004495ab",
+  "active": "b6287e88da8e776e",
   "lastOpenFiles": [
+    "CLAUDE.md",
+    "_archive/Bloomberg Television – How Boring Businesses Create Billionaires.md",
     "notes/boring-businesses-create-billionaires.md",
     "_archive/GamersVPN - Ecommerce Store listed on Flippa.md",
     "_inbox/Bloomberg Television – How Boring Businesses Create Billionaires.md",
     "Sans titre.canvas",
-    "CLAUDE.md",
     "_inbox/ForCar.org — VIN Decoder & Monroney Window Sticker Tool - Website listed on Flippa.md",
     "_inbox/Non confirmé 696729.crdownload",
     "Clippings/GamersVPN - Ecommerce Store listed on Flippa.md",
