@@ -180,11 +180,15 @@
       "daily-notes:Ouvrir la note quotidienne": false,
       "templates:Insérer le modèle": false,
       "command-palette:Ouvrir la palette de commandes": false,
-      "bases:Créer une nouvelle base": false
+      "bases:Créer une nouvelle base": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b6287e88da8e776e",
+  "active": "e12ed34e004495ab",
   "lastOpenFiles": [
+    "notes/boring-businesses-create-billionaires.md",
+    "_archive/GamersVPN - Ecommerce Store listed on Flippa.md",
+    "_inbox/Bloomberg Television – How Boring Businesses Create Billionaires.md",
     "Sans titre.canvas",
     "CLAUDE.md",
     "_inbox/ForCar.org — VIN Decoder & Monroney Window Sticker Tool - Website listed on Flippa.md",
