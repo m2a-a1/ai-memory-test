@@ -186,6 +186,7 @@
   },
   "active": "b6287e88da8e776e",
   "lastOpenFiles": [
+    "teams/acquisition-desk/TEAM.md",
     "teams/acquisition-desk/team.yaml",
     "teams/acquisition-desk",
     "teams",
@@ -209,7 +210,6 @@
     "_archive",
     "_templates",
     "journal",
-    "notes",
-    "_inbox"
+    "notes"
   ]
 }
