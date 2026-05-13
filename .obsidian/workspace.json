@@ -11,14 +11,10 @@
             "id": "b6287e88da8e776e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_inbox/GamersVPN - Ecommerce Store listed on Flippa.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "GamersVPN - Ecommerce Store listed on Flippa"
+              "title": "Nouvel onglet"
             }
           }
         ]
@@ -94,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_inbox/GamersVPN - Ecommerce Store listed on Flippa.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +99,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Rétrolien pour GamersVPN - Ecommerce Store listed on Flippa"
+              "title": "Rétroliens"
             }
           },
           {
@@ -113,12 +108,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_inbox/GamersVPN - Ecommerce Store listed on Flippa.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Liens sortants de GamersVPN - Ecommerce Store listed on Flippa"
+              "title": "Liens sortants"
             }
           },
           {
@@ -156,13 +150,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_inbox/GamersVPN - Ecommerce Store listed on Flippa.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Plan de GamersVPN - Ecommerce Store listed on Flippa"
+              "title": "Plan"
             }
           }
         ]
@@ -186,6 +179,8 @@
   },
   "active": "b6287e88da8e776e",
   "lastOpenFiles": [
+    "_inbox/GamersVPN - Ecommerce Store listed on Flippa.md",
+    "notes/deal-2026-05-13-gamersvpn.md",
     "teams/acquisition-desk/TEAM.md",
     "teams/acquisition-desk/team.yaml",
     "teams/acquisition-desk",
@@ -197,7 +192,6 @@
     "notes/opportunity-brief-2026-W20.md",
     "_clipper-templates",
     "_inbox/ForCar.org — VIN Decoder & Monroney Window Sticker Tool - Website listed on Flippa.md",
-    "_inbox/GamersVPN - Ecommerce Store listed on Flippa.md",
     "notes/boring-businesses-create-billionaires.md",
     "notes/opportunity-radar-agent-team.md",
     "CLAUDE.md",
