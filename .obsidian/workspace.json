@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_clipper-templates/README.md",
+                "file": "notes/deal-2026-05-13-podlm.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "deal-2026-05-13-podlm"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_clipper-templates/README.md",
+                "file": "notes/deal-2026-05-13-podlm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Rétrolien pour README"
+              "title": "Rétrolien pour deal-2026-05-13-podlm"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_clipper-templates/README.md",
+                "file": "notes/deal-2026-05-13-podlm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Liens sortants de README"
+              "title": "Liens sortants de deal-2026-05-13-podlm"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_clipper-templates/README.md",
+                "file": "notes/deal-2026-05-13-podlm.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Plan de README"
+              "title": "Plan de deal-2026-05-13-podlm"
             }
           }
         ]
@@ -186,6 +186,8 @@
   },
   "active": "b6287e88da8e776e",
   "lastOpenFiles": [
+    "_clipper-templates/README.md",
+    "_inbox/AvisBoost - SaaS listed on Flippa.md",
     "_archive/Deadline & Expiration Tracking SaaS with Automated Email_SMS Alerts - SaaS listed on Flippa.md",
     "_archive/AI Podcast Maker - PODLM - iOS App listed on Flippa.md",
     "_archive/Black Illustrations - Ecommerce Store listed on Flippa.md",
@@ -203,7 +205,6 @@
     "teams/acquisition-desk/team.yaml",
     "teams/acquisition-desk",
     "teams",
-    "_clipper-templates/README.md",
     "_clipper-templates/flippa.json",
     "_archive/ForCar.org — VIN Decoder & Monroney Window Sticker Tool - Website listed on Flippa.md",
     "notes/opportunity-brief-2026-W20.md",
