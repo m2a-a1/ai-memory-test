@@ -1,0 +1,43 @@
+{
+	"schemaVersion": "0.1.0",
+	"name": "Flippa — Listing",
+	"behavior": "create",
+	"path": "_inbox",
+	"noteNameFormat": "{{title}}",
+	"noteContentFormat": "# {{title}}\n\n> {{description}}\n\n---\n\n## Key Metrics\n\n{{selector:#properties-summary}}\n\n## Asking Price\n\n{{selector:.bid-box-price}}\n\n## Listing Description\n\n{{selectorHtml:#description-section|markdown}}\n\n## Financials (monthly)\n\n{{selectorHtml:#financials-detail-table|markdown}}\n\n## Traffic Insights\n\n{{selector:#collapse-traffic_insights}}\n\n## Monetization\n\n{{selector:#collapse-monetization_methods}}\n\n---\n\n**Source:** [Flippa listing]({{url}})\n**Clipped:** {{date}}\n",
+	"properties": [
+		{
+			"name": "title",
+			"value": "{{title}}",
+			"type": "text"
+		},
+		{
+			"name": "source",
+			"value": "{{url}}",
+			"type": "text"
+		},
+		{
+			"name": "created",
+			"value": "{{date}}",
+			"type": "date"
+		},
+		{
+			"name": "description",
+			"value": "{{description}}",
+			"type": "text"
+		},
+		{
+			"name": "tags",
+			"value": "flippa, acquisition, veille-marche",
+			"type": "multitext"
+		},
+		{
+			"name": "status",
+			"value": "draft",
+			"type": "text"
+		}
+	],
+	"triggers": [
+		"https://flippa.com/"
+	]
+}
