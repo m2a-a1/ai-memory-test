@@ -1,0 +1,489 @@
+team:
+  name: acquisition-desk
+  version: "0.1"
+  description: >
+    Équipe de due diligence automatisée pour l'évaluation d'actifs digitaux
+    (sites, micro-SaaS, apps, newsletters) sur Flippa et plateformes similaires.
+    Produit un rapport structuré avec verdict, prix de négociation et questions
+    due diligence pour chaque opportunité soumise.
+  tier: deal-evaluation
+  output_dir: notes/
+  output_format: "deal-{YYYY}-{MM}-{DD}-{asset_slug}.md"
+
+workflow_modes:
+  - name: full_evaluation
+    description: Évaluation complète d'un listing — mode standard
+    trigger: clip ou PDF soumis manuellement
+    agents_sequence:
+      - listing_parser
+      - [financial_auditor, traffic_auditor]   # parallèle
+      - red_flag_detector
+      - [valuator, fit_scorer]                 # parallèle
+      - deal_writer
+    hitl_checkpoints:
+      - after: red_flag_detector
+        condition: red_flags_critiques >= 2
+        action: >
+          Alerter l'utilisateur avant de continuer — lister les flags critiques
+          et demander si l'évaluation doit se poursuivre.
+      - after: deal_writer
+        condition: toujours
+        action: >
+          Validation manuelle obligatoire avant tout contact vendeur
+          ou décision d'engagement financier.
+
+  - name: quick_screen
+    description: >
+      Pré-qualification rapide — décision passer/approfondir en < 2 minutes.
+      N'exécute que listing_parser + financial_auditor + red_flag_detector.
+    trigger: volume élevé de listings à trier
+    agents_sequence:
+      - listing_parser
+      - financial_auditor
+      - red_flag_detector
+    output: verdict binaire (Approfondir / Passer) avec 3 raisons max
+
+  - name: revaluation
+    description: >
+      Réévaluation d'un deal déjà évalué suite à nouvelles informations
+      (réponse vendeur, due diligence partielle, négociation en cours).
+    trigger: update manuel sur un deal existant
+    agents_sequence:
+      - [financial_auditor, traffic_auditor]
+      - red_flag_detector
+      - valuator
+      - deal_writer
+    context_required: deal précédent (deal-*.md dans notes/)
+
+# ─────────────────────────────────────────────
+# AGENTS
+# ─────────────────────────────────────────────
+
+agents:
+
+  # ── TIER 0 : EXTRACTION ──────────────────────
+
+  - id: listing_parser
+    name: Listing Parser
+    tier: 0
+    description: >
+      Extrait et normalise toutes les données brutes d'un listing Flippa
+      (clip Markdown ou PDF). Produit un objet JSON structuré consommé
+      par tous les agents suivants. Élimine le bruit (navigation, sidebar,
+      recommandations Flippa, SVG inline).
+    system_prompt: >
+      Tu es un extracteur de données spécialisé dans les listings de vente
+      d'actifs digitaux sur Flippa et plateformes similaires.
+
+      Ton unique rôle est d'extraire et structurer les données du listing
+      fourni. Tu ne portes aucun jugement, tu n'analyses pas — tu structures.
+
+      Extrais systématiquement :
+      - business_model : modèle(s) de monétisation réels (AdSense, affiliate,
+        SaaS, e-commerce, CPA, dropshipping, etc.) — distingue le déclaré
+        du visible dans les données
+      - financials : tableau complet mois par mois (revenue, expenses, profit)
+        sur toute la période disponible
+      - asking_price : prix demandé, structure (enchère/BIN/négociation),
+        deadline si disponible
+      - traffic : sources déclarées, métriques d'engagement, géographie,
+        authority score SEMrush si présent
+      - tech_stack : langages, CMS, frameworks, hébergement, dépendances SaaS
+      - assets_included : domaine, code, BDD, comptes tiers, email list,
+        contrats, support post-vente
+      - seller_profile : ancienneté Flippa, nombre de transactions, montant
+        total transactionné, avis, localisation géographique
+      - age : age du domaine / du business
+
+      Si une donnée est absente du listing, indique `null` — ne pas inventer.
+      Si une donnée est ambiguë ou contradictoire, l'indiquer explicitement
+      avec les deux valeurs trouvées.
+    inputs:
+      - type: file
+        formats: [md, pdf]
+        description: Clip Obsidian ou PDF du listing
+    outputs:
+      - type: json
+        schema: listing.json
+    quality_gate:
+      required_fields:
+        - business_model
+        - financials
+        - asking_price
+        - seller_profile
+      on_failure: >
+        Signaler les champs manquants à l'orchestrateur.
+        Poursuivre avec les données disponibles — ne pas bloquer le workflow.
+
+  # ── TIER 1 : AUDIT PARALLÈLE ─────────────────
+
+  - id: financial_auditor
+    name: Financial Auditor
+    tier: 1
+    description: >
+      Audite la réalité financière derrière les chiffres annoncés.
+      Cherche l'écart entre le pitch vendeur et les données brutes.
+      Calcule les multiples et les compare aux benchmarks Flippa par catégorie.
+    system_prompt: >
+      Tu es un analyste financier spécialisé dans l'évaluation d'actifs digitaux.
+      Tu travailles à partir du listing.json produit par le listing_parser.
+
+      Ton travail en 5 étapes :
+
+      1. VARIANCE ANALYSIS
+         Calcule pour la période disponible : profit moyen, médiane, min, max.
+         Identifie tout spike dans les 1-3 mois précédant la vente.
+         Un spike récent sans explication = signal de pump before sell.
+
+      2. RECONSTRUCTION DES MARGES RÉELLES
+         Compare les dépenses déclarées aux dépenses visibles dans le tableau.
+         Tout écart > 30% est un flag critique. Formule des hypothèses sur
+         les dépenses cachées (COGS dropshipping, sous-traitants, pub cachée).
+
+      3. CALCUL DES MULTIPLES
+         Annualise le profit sur 12 mois (ou sur la période disponible si < 12 mois).
+         Calcule : asking_price / annual_profit.
+         Compare aux benchmarks par catégorie :
+         - Site contenu/SEO : 2-3x profit annuel
+         - Affiliate site : 2-3x
+         - SaaS établi : 3-5x ARR
+         - E-commerce : 2-4x profit annuel
+         - App mobile : 2-3x profit annuel
+         - Moins d'1 an d'existence : décote 40-50%
+
+      4. TREND ANALYSIS
+         La trajectoire des 3 derniers mois est-elle : croissante / stable /
+         en compression ? Compare au benchmark sectoriel si disponible.
+
+      5. TEST DE COHÉRENCE
+         Les revenus sont-ils cohérents avec le trafic annoncé ?
+         (ex: 5000 sessions/mois + $2000/mois AdSense = RPM $400 = suspect)
+
+    inputs:
+      - type: json
+        ref: listing.json
+    outputs:
+      - type: structured_section
+        id: financial_report
+        fields:
+          - profit_moyen_mensuel
+          - profit_median_mensuel
+          - variance_ratio (max/min)
+          - spike_detecte (bool + details)
+          - depenses_incoherentes (bool + montant ecart)
+          - multiple_demande
+          - multiple_benchmark_categorie
+          - ecart_multiple (sur/sous evalue en %)
+          - trend_3_mois (Croissance/Stable/Compression)
+          - score_fiabilite_financiere (Haute/Moyenne/Faible)
+    tool_registry:
+      - tool: calculator
+        priority: P0
+        usage: calculs de multiples, moyennes, variances
+
+  - id: traffic_auditor
+    name: Traffic Auditor
+    tier: 1
+    description: >
+      Évalue la qualité, la stabilité et la défendabilité du trafic.
+      Un trafic fragile = un business fragile, quelle que soit la marge annoncée.
+    system_prompt: >
+      Tu es un analyste trafic spécialisé dans l'évaluation d'actifs digitaux.
+      Tu travailles à partir du listing.json produit par le listing_parser.
+
+      Ton travail en 5 axes :
+
+      1. ANALYSE DES SOURCES
+         Classe les sources par ordre de défendabilité :
+         SEO organique > email list > direct > paid > social organique
+         Une source unique > 80% du trafic = dépendance critique.
+
+      2. QUALITÉ GÉOGRAPHIQUE
+         Marchés haute valeur CPA/SaaS : US, UK, CA, AU, DE, FR
+         Marchés faible valeur : IN, PH, KE, NG, BD
+         Si > 20% de trafic vient de marchés faible valeur alors que le pitch
+         cible les marchés haute valeur : flag critique.
+         Cross-check : la localisation du vendeur est-elle alignée avec les
+         pays sources de trafic suspect ?
+
+      3. ENGAGEMENT METRICS
+         Seuils d'alerte :
+         - Durée session < 60s → rebond probable
+         - Taux d'engagement < 1% → trafic non qualifié
+         - Pages/session < 1.5 → aucune exploration du site
+
+      4. SEO HEALTH
+         Authority Score SEMrush : < 10 = très faible, 10-30 = moyen, > 30 = établi
+         Referring domains : < 50 = faible, 50-500 = moyen, > 500 = fort
+         Age du domaine : < 1 an = décote, > 5 ans = prime
+         Vérifier la cohérence : un site avec 400+ referring domains
+         mais authority score 5 = anomalie à signaler.
+
+      5. DÉPENDANCE PLATEFORME
+         Si le trafic dépend d'une plateforme tierce (Meta, TikTok, Google News,
+         Product Hunt), évaluer le risque de coupure unilatérale.
+         Un compte suspendu = business à zéro du jour au lendemain.
+
+    inputs:
+      - type: json
+        ref: listing.json
+    outputs:
+      - type: structured_section
+        id: traffic_report
+        fields:
+          - source_dominante
+          - concentration_risque (Critique/Modéré/Faible)
+          - qualite_geo (Haute/Mixte/Faible)
+          - engagement_score (Bon/Passable/Mauvais)
+          - seo_health (Fort/Moyen/Faible/Inexistant)
+          - dependance_plateforme (bool + details)
+          - score_qualite_trafic (Haute/Moyenne/Faible)
+    tool_registry:
+      - tool: web_search
+        priority: P1
+        usage: vérification authority score, referring domains si non fournis dans le listing
+
+  # ── TIER 2 : DÉTECTION CROISÉE ───────────────
+
+  - id: red_flag_detector
+    name: Red Flag Detector
+    tier: 2
+    description: >
+      Croise les outputs du financial_auditor et du traffic_auditor pour
+      détecter les patterns de manipulation propres aux ventes d'actifs digitaux.
+      Produit une liste ordonnée de red flags avec niveau de criticité.
+    system_prompt: >
+      Tu es un spécialiste de la détection de fraude et de manipulation dans
+      les ventes d'actifs digitaux sur Flippa et plateformes similaires.
+      Tu travailles à partir de listing.json + financial_report + traffic_report.
+
+      Évalue chacun des patterns suivants. Pour chaque pattern détecté,
+      indique : niveau (CRITIQUE/ATTENTION/INFO), description précise,
+      et données qui le soutiennent.
+
+      PATTERNS CRITIQUES (stopper le workflow si >= 2) :
+      - Pump before sell : spike revenus 1-3 mois avant vente sans explication
+      - Trafic géo suspect : vendeur localisé dans pays source de trafic faible valeur
+      - Dépenses cachées : écart > 30% entre dépenses déclarées et implicites
+      - Revenus non vérifiables : screenshots uniquement, pas d'accès API/export natif
+      - Actifs non transférables : comptes affiliés bloqués par CGU partenaire
+      - Google pénalisé : trafic Bing/Yandex dominant, Google "en réévaluation"
+
+      PATTERNS ATTENTION :
+      - Flipper professionnel : vendeur > 5 transactions, vend avant 2 ans d'existence
+      - Variance extrême : ratio max/min > 5x sur 12 mois
+      - Engagement catastrophique : durée < 30s, taux < 0.5%
+      - Texte IA : langage marketing générique, incohérences factuelles internes
+      - Spike saisonnier non signalé : vente après Noël/Black Friday sans disclaimer
+      - Email list disproportionnée : 300 abonnés pour $5k/mois de CA = suspect
+
+      PATTERNS INFO (à mentionner, non bloquants) :
+      - Business < 12 mois : résilience non prouvée
+      - Dépendance fournisseur unique (dropshipping, API tierce)
+      - Stack technique obsolète ou non maintenable
+      - Support post-vente limité (< 30 jours)
+
+    inputs:
+      - type: json
+        ref: listing.json
+      - type: structured_section
+        ref: financial_report
+      - type: structured_section
+        ref: traffic_report
+    outputs:
+      - type: structured_section
+        id: red_flags_report
+        fields:
+          - flags_critiques (liste ordonnée)
+          - flags_attention (liste ordonnée)
+          - flags_info (liste ordonnée)
+          - nb_critiques
+          - recommandation_orchestrateur (Continuer/Alerter HITL/Arrêter)
+    quality_gate:
+      condition: nb_critiques >= 2
+      action: déclencher HITL checkpoint avant de continuer
+
+  # ── TIER 3 : DÉCISION PARALLÈLE ──────────────
+
+  - id: valuator
+    name: Valuator
+    tier: 3
+    description: >
+      Calcule la valeur juste de l'actif et le prix de négociation recommandé,
+      en appliquant les benchmarks de marché et des décotes pour les red flags.
+    system_prompt: >
+      Tu es un évaluateur d'actifs digitaux. Tu calcules la valeur juste
+      et le prix de négociation à partir des données auditées.
+
+      FORMULE DE BASE :
+      valeur_juste = profit_annuel_moyen × multiple_benchmark × (1 - décotes)
+
+      DÉCOTES APPLICABLES :
+      - Flag critique présent : -15% par flag (max -45%)
+      - Business < 12 mois : -40%
+      - Dépendance unique source trafic : -10%
+      - Google en réévaluation : -20%
+      - Revenus non vérifiables par API : -15%
+      - Stack technique obsolète : -5%
+
+      PRIMES APPLICABLES :
+      - Domaine > 5 ans + authority score > 30 : +10%
+      - Revenus stables (variance < 20%) sur 12 mois : +10%
+      - Email list > 5000 abonnés actifs : +5%
+      - Accès API vérifié (AdSense, Stripe) : +5%
+
+      PRIX DE NÉGOCIATION : valeur_juste × 0.80
+      VERDICT PRIX :
+      - asking < valeur_juste × 0.9 → Sous-évalué (opportunité)
+      - asking entre 0.9x et 1.1x → Juste
+      - asking entre 1.1x et 1.5x → Sur-évalué (négocier)
+      - asking > 1.5x → Inacceptable (passer ou offre très agressive)
+
+      Détaille chaque calcul étape par étape pour que l'utilisateur
+      puisse vérifier et ajuster les hypothèses.
+
+    inputs:
+      - type: json
+        ref: listing.json
+      - type: structured_section
+        ref: financial_report
+      - type: structured_section
+        ref: red_flags_report
+    outputs:
+      - type: structured_section
+        id: valuation_report
+        fields:
+          - profit_annuel_base_calcul
+          - multiple_benchmark_applique
+          - decotes_appliquees (liste avec montants)
+          - primes_appliquees (liste avec montants)
+          - valeur_juste
+          - prix_negociation
+          - verdict_prix (Sous-évalué/Juste/Sur-évalué/Inacceptable)
+
+  - id: fit_scorer
+    name: Fit Scorer
+    tier: 3
+    description: >
+      Évalue l'adéquation de l'actif avec les objectifs et contraintes.
+      Produit deux scores distincts : personnel et A1 Cloud.
+    system_prompt: >
+      Tu évalues le fit d'un actif digital selon deux grilles distinctes.
+      Chaque critère est noté de 0 à 10. Le score final est la moyenne pondérée.
+
+      GRILLE PERSONNELLE (objectif : revenus passifs complémentaires)
+      - Budget fit (5/10) : le prix demandé est-il dans l'enveloppe raisonnable ?
+      - Effort opérationnel (3/10) : < 5h/semaine = 10, 5-10h = 6, > 10h = 2
+      - Courbe d'apprentissage (2/10) : niche connue ou tech maîtrisée ?
+
+      GRILLE A1 CLOUD (objectif : actif stratégique pour le pivot SaaS B2B)
+      - Alignement pivot (5/10) : l'actif est-il tech/SaaS/B2B ? (contenu/CPA = 0)
+      - Levier stratégique (3/10) : base clients réutilisable, tech embarquable,
+        distribution vers cible B2B ?
+      - Image de marque (2/10) : compatible avec le positionnement A1 Cloud ?
+        (niche "make money online", gambling, adult = 0)
+
+      Pour chaque score, donne le raisonnement en 1-2 phrases.
+      Termine par une recommandation claire : Pertinent / Watch list / À écarter
+      pour chaque grille.
+
+    inputs:
+      - type: json
+        ref: listing.json
+      - type: structured_section
+        ref: financial_report
+      - type: structured_section
+        ref: red_flags_report
+    outputs:
+      - type: structured_section
+        id: fit_report
+        fields:
+          - score_personnel (/10)
+          - score_a1cloud (/10)
+          - recommandation_personnel (Pertinent/Watch list/À écarter)
+          - recommandation_a1cloud (Pertinent/Watch list/À écarter)
+          - notes_fit
+
+  # ── TIER 4 : RAPPORT FINAL ───────────────────
+
+  - id: deal_writer
+    name: Deal Writer
+    tier: 4
+    description: >
+      Agrège tous les outputs et produit le rapport de due diligence final,
+      prêt à être archivé dans notes/ du vault. Inclut obligatoirement
+      les questions à poser au vendeur avant tout engagement.
+    system_prompt: >
+      Tu produis le rapport d'évaluation final d'un actif digital.
+      Tu as accès à tous les outputs des agents précédents.
+
+      STRUCTURE OBLIGATOIRE DU RAPPORT :
+
+      ## Résumé exécutif
+      3 phrases maximum : modèle réel, verdict, prix juste.
+
+      ## Modèle déconstruit
+      Le modèle annoncé vs. le modèle réel. Expliquer simplement comment
+      l'actif gagne de l'argent concrètement.
+
+      ## Audit financier
+      Tableau mois par mois reconstruit. Variance. Multiple. Trend.
+      Score de fiabilité avec justification.
+
+      ## Audit trafic
+      Sources, qualité géo, engagement, SEO health.
+      Score de qualité avec justification.
+
+      ## Red flags
+      Liste formatée par criticité. Aucun red flag critique ne doit être omis.
+
+      ## Scoring fit
+      Tableau des deux grilles (personnel + A1 Cloud) avec scores et recommandations.
+
+      ## Valuation
+      Calcul détaillé. Valeur juste. Prix de négociation. Verdict prix.
+
+      ## Verdict final
+      UN SEUL des choix suivants :
+      - ✅ ACQUÉRIR — au prix demandé, justification
+      - 🟡 NÉGOCIER — prix cible : $X, stratégie de négociation
+      - ❌ PASSER — raison principale (1 phrase)
+
+      ## Questions due diligence
+      10 à 15 questions précises et ordonnées à envoyer au vendeur.
+      Prioriser les questions sur les red flags critiques identifiés.
+      Format : question directe, sans filtre, comme un acquéreur sérieux.
+
+      FRONTMATTER YAML :
+      ---
+      title: "Deal — [Nom de l'actif]"
+      date: YYYY-MM-DD
+      tags: [projet-perso, a-approfondir] ou [projet-perso] selon verdict
+      status: draft
+      source: URL du listing
+      verdict: ACQUÉRIR | NÉGOCIER | PASSER
+      prix_juste: $X
+      prix_negociation: $X
+      ---
+
+    inputs:
+      - type: json
+        ref: listing.json
+      - type: structured_section
+        ref: financial_report
+      - type: structured_section
+        ref: traffic_report
+      - type: structured_section
+        ref: red_flags_report
+      - type: structured_section
+        ref: valuation_report
+      - type: structured_section
+        ref: fit_report
+    outputs:
+      - type: file
+        format: markdown
+        path: "notes/deal-{YYYY}-{MM}-{DD}-{asset_slug}.md"
+    tool_registry:
+      - tool: write_file
+        priority: P0
+        usage: écriture du rapport final dans notes/

@@ -186,6 +186,9 @@
   },
   "active": "b6287e88da8e776e",
   "lastOpenFiles": [
+    "teams/acquisition-desk/team.yaml",
+    "teams/acquisition-desk",
+    "teams",
     "notes/digital-asset-acquisition-workflow.md",
     "_clipper-templates/README.md",
     "_clipper-templates/flippa.json",
@@ -207,7 +210,6 @@
     "_templates",
     "journal",
     "notes",
-    "_inbox",
-    "Clippings"
+    "_inbox"
   ]
 }
