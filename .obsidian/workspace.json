@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/deal-2026-05-13-gamersvpn.md",
+                "file": "notes/digital-asset-acquisition-workflow.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "deal-2026-05-13-gamersvpn"
+              "title": "digital-asset-acquisition-workflow"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/deal-2026-05-13-gamersvpn.md",
+                "file": "notes/digital-asset-acquisition-workflow.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Rétrolien pour deal-2026-05-13-gamersvpn"
+              "title": "Rétrolien pour digital-asset-acquisition-workflow"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/deal-2026-05-13-gamersvpn.md",
+                "file": "notes/digital-asset-acquisition-workflow.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Liens sortants de deal-2026-05-13-gamersvpn"
+              "title": "Liens sortants de digital-asset-acquisition-workflow"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/deal-2026-05-13-gamersvpn.md",
+                "file": "notes/digital-asset-acquisition-workflow.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Plan de deal-2026-05-13-gamersvpn"
+              "title": "Plan de digital-asset-acquisition-workflow"
             }
           }
         ]
@@ -186,8 +186,8 @@
   },
   "active": "b6287e88da8e776e",
   "lastOpenFiles": [
-    "_inbox/GamersVPN - Ecommerce Store listed on Flippa.md",
     "notes/deal-2026-05-13-gamersvpn.md",
+    "_inbox/GamersVPN - Ecommerce Store listed on Flippa.md",
     "teams/acquisition-desk/TEAM.md",
     "teams/acquisition-desk/team.yaml",
     "teams/acquisition-desk",
