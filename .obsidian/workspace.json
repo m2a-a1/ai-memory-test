@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/deal-2026-05-14-hauszi.md",
+                "file": "notes/deal-2026-05-14-hintscope.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "deal-2026-05-14-hauszi"
+              "title": "deal-2026-05-14-hintscope"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/deal-2026-05-14-hauszi.md",
+                "file": "notes/deal-2026-05-14-hintscope.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Rétrolien pour deal-2026-05-14-hauszi"
+              "title": "Rétrolien pour deal-2026-05-14-hintscope"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/deal-2026-05-14-hauszi.md",
+                "file": "notes/deal-2026-05-14-hintscope.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Liens sortants de deal-2026-05-14-hauszi"
+              "title": "Liens sortants de deal-2026-05-14-hintscope"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/deal-2026-05-14-hauszi.md",
+                "file": "notes/deal-2026-05-14-hintscope.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Plan de deal-2026-05-14-hauszi"
+              "title": "Plan de deal-2026-05-14-hintscope"
             }
           }
         ]
@@ -186,11 +186,11 @@
   },
   "active": "b6287e88da8e776e",
   "lastOpenFiles": [
+    "notes/deal-2026-05-14-hauszi.md",
     "_inbox/AvisBoost - SaaS listed on Flippa.md",
     "_archive/Hintscope - SaaS listed on Flippa.md",
     "_archive/Hauszi Media Network - Website listed on Flippa.md",
     "notes/deal-2026-05-14-hintscope.md",
-    "notes/deal-2026-05-14-hauszi.md",
     "_inbox/Sentinel - SaaS listed on Flippa.md",
     "_inbox/Non confirmé 653254.crdownload",
     "_inbox/MyBestie－Mental Health Support - iOS App listed on Flippa.md",
