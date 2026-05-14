@@ -14,18 +14,18 @@ Réseau de 6 sites de décoration d'intérieur (hauszi.de principal + .nl, .fr, 
 
 ## Audit financier
 
-| Métrique | Valeur |
-|---|---|
-| Revenus déclarés | ~$1,500/mo (moyenne) |
-| Profit déclaré | $992/mo (moyenne) |
-| Marge déclarée | 99% |
-| Profit annualisé | $11,904 |
-| Starting bid | $9,999 |
-| Réserve | $29,999 |
-| Multiple (réserve) | 2.52× profit annuel |
-| Multiple (starting bid) | 0.84× profit annuel |
-| Benchmark contenu/SEO | 2–3× profit annuel |
-| Trend 3 mois | Inconnu — aucun tableau mensuel fourni |
+| Métrique                   | Valeur                                                                           |
+| -------------------------- | -------------------------------------------------------------------------------- |
+| Revenus déclarés           | ~$1,500/mo (moyenne)                                                             |
+| Profit déclaré             | $992/mo (moyenne)                                                                |
+| Marge déclarée             | 99%                                                                              |
+| Profit annualisé           | $11,904                                                                          |
+| Starting bid               | $9,999                                                                           |
+| Réserve                    | $29,999                                                                          |
+| Multiple (réserve)         | 2.52× profit annuel                                                              |
+| Multiple (starting bid)    | 0.84× profit annuel                                                              |
+| Benchmark contenu/SEO      | 2–3× profit annuel                                                               |
+| Trend 3 mois               | Inconnu — aucun tableau mensuel fourni                                           |
 | Score fiabilité financière | **Faible** — aucune décomposition mensuelle, revenus via Google Drive uniquement |
 
 **Points critiques :**
