@@ -6,6 +6,7 @@ Import a template: Web Clipper settings → Templates → "+" → switch to JSON
 | File | Site | Auto-applies on | Extracts |
 |---|---|---|---|
 | `flippa.json` | Flippa | `flippa.com/*` | Title, price, metrics, description, financials, traffic, monetization |
+| `medium.json` | Medium & publications | `medium.com/*`, `towardsdatascience.com/*`, `levelup.gitconnected.com/*`, `betterprogramming.pub/*` | Title, author, published date, description, cover image, full article content |
 
 ## Selectors used — Flippa
 
@@ -22,6 +23,22 @@ Import a template: Web Clipper settings → Templates → "+" → switch to JSON
 
 ⚠️ Accordion divs (`#collapse-*`) are rendered client-side. If a field is empty after clipping,
 the page may not have fully loaded. Wait 2–3 seconds after page load before clipping.
+
+## Selectors used — Medium
+
+| Field | Source | Confidence |
+|---|---|---|
+| Title | `og:title` meta → `{{title}}` | ✅ Stable |
+| Author | `meta[name='author']` → `{{author}}` | ✅ Stable |
+| Published date | `article:published_time` meta → `{{published}}` | ✅ Stable |
+| Description | `og:description` meta → `{{description}}` | ✅ Stable — extrait le sous-titre de l'article |
+| Cover image | `og:image` meta → `{{image}}` | ✅ Stable |
+| URL | → `{{url}}` | ✅ Stable |
+| Article content | Readability → `{{content}}` | ✅ Stable — texte complet reformaté en Markdown |
+
+⚠️ Medium masque parfois le contenu complet derrière le paywall. Dans ce cas, `{{content}}`
+ne contiendra que l'extrait public. Clipper après s'être connecté à son compte Medium pour
+obtenir le texte complet si l'article est dans ton abonnement.
 
 ## Adding a new template
 

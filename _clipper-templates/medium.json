@@ -1,0 +1,56 @@
+{
+	"schemaVersion": "0.1.0",
+	"name": "Medium — Article",
+	"behavior": "create",
+	"path": "_inbox",
+	"noteNameFormat": "{{author}} – {{title}}",
+	"noteContentFormat": "---\ntitle: \"{{title}}\"\nauthor:\n  - \"[[{{author}}]]\"\npublished: {{published:date}}\nsource: \"{{url}}\"\nimage: \"{{image}}\"\ncreated: {{date}}\ntags:\n  - \"veille-tech\"\n  - \"medium\"\nstatus: draft\n---\n![{{title}}]({{image}})\n\n> {{description}}\n\n---\n\n## Mes notes\n\n<!-- Résumé personnel, idées clés, liens avec d'autres notes -->\n\n## Points clés\n\n- \n\n---\n\n## Article complet\n\n{{content}}\n\n---\n\n**Source :** [{{title}}]({{url}})  \n**Auteur :** {{author}}  \n**Clipé le :** {{date}}\n",
+	"properties": [
+		{
+			"name": "title",
+			"value": "{{title}}",
+			"type": "text"
+		},
+		{
+			"name": "author",
+			"value": "{{author}}",
+			"type": "text"
+		},
+		{
+			"name": "published",
+			"value": "{{published}}",
+			"type": "date"
+		},
+		{
+			"name": "source",
+			"value": "{{url}}",
+			"type": "text"
+		},
+		{
+			"name": "image",
+			"value": "{{image}}",
+			"type": "text"
+		},
+		{
+			"name": "created",
+			"value": "{{date}}",
+			"type": "date"
+		},
+		{
+			"name": "tags",
+			"value": "veille-tech, medium",
+			"type": "multitext"
+		},
+		{
+			"name": "status",
+			"value": "draft",
+			"type": "text"
+		}
+	],
+	"triggers": [
+		"https://medium.com/",
+		"https://levelup.gitconnected.com/",
+		"https://towardsdatascience.com/",
+		"https://betterprogramming.pub/"
+	]
+}
