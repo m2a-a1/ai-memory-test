@@ -1,7 +1,8 @@
 ---
-title: "Deal — AvisBoost (avisboost.net)"
+title: Deal — AvisBoost (avisboost.net)
 date: 2026-05-13
-tags: [projet-perso, a-approfondir]
+tags:
+  - projet-perso
 status: draft
 source: https://flippa.com/12757441-saas-generateur-de-revenus-recurrents-base-sur-avis-google-et-fidelisation-client-automatise-scalable-pret-a-exploiter-immediatement
 verdict: PASSER
