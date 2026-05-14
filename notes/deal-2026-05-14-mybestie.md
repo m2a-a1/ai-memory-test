@@ -1,7 +1,8 @@
 ---
-title: "Deal — MyBestie (iOS App — Mental Health)"
+title: Deal — MyBestie (iOS App — Mental Health)
 date: 2026-05-14
-tags: [projet-perso, a-approfondir]
+tags:
+  - projet-perso
 status: draft
 source: https://flippa.com/12217946-mybestie-mental-health-support
 verdict: PASSER

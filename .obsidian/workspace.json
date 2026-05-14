@@ -11,17 +11,14 @@
             "id": "b6287e88da8e776e",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Sans titre.canvas",
-                "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": 0
-                }
+                "file": "notes/deal-2026-05-14-sentinel-ai.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Sans titre"
+              "icon": "lucide-file",
+              "title": "deal-2026-05-14-sentinel-ai"
             }
           }
         ]
@@ -77,8 +74,7 @@
               "title": "Signets"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -98,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sans titre.canvas",
+                "file": "notes/deal-2026-05-14-sentinel-ai.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Rétrolien pour Sans titre"
+              "title": "Rétrolien pour deal-2026-05-14-sentinel-ai"
             }
           },
           {
@@ -117,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sans titre.canvas",
+                "file": "notes/deal-2026-05-14-sentinel-ai.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Liens sortants de Sans titre"
+              "title": "Liens sortants de deal-2026-05-14-sentinel-ai"
             }
           },
           {
@@ -160,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sans titre.canvas",
+                "file": "notes/deal-2026-05-14-sentinel-ai.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Plan de Sans titre"
+              "title": "Plan de deal-2026-05-14-sentinel-ai"
             }
           }
         ]
@@ -190,13 +186,15 @@
   },
   "active": "b6287e88da8e776e",
   "lastOpenFiles": [
+    "notes/deal-2026-05-14-mybestie.md",
+    "notes/opportunity-radar-agent-team.md",
+    "Sans titre.base",
+    "Sans titre.canvas",
     "GamersVPN - Ecommerce Store listed on Flippa.md",
     "AvisBoost - SaaS listed on Flippa.md",
     "_archive/MyBestie－Mental Health Support - iOS App listed on Flippa.md",
     "_archive/Sentinel - SaaS listed on Flippa.md",
-    "notes/deal-2026-05-14-mybestie.md",
     "notes/deal-2026-05-14-sentinel-ai.md",
-    "Sans titre.canvas",
     "notes/deal-2026-05-13-avisboost.md",
     "notes/deal-2026-05-13-black-illustrations.md",
     "notes/deal-2026-05-13-deadline-saas.md",
@@ -218,14 +216,12 @@
     "_archive/AvisBoost - SaaS listed on Flippa.md",
     "_clipper-templates/README.md",
     "_archive/Deadline & Expiration Tracking SaaS with Automated Email_SMS Alerts - SaaS listed on Flippa.md",
-    "_archive/AI Podcast Maker - PODLM - iOS App listed on Flippa.md",
     "_inbox/Non confirmé 836984.crdownload",
     "teams/acquisition-desk/team.yaml",
     "teams/acquisition-desk",
     "teams",
     "_clipper-templates/flippa.json",
     "_clipper-templates",
-    "_inbox/Non confirmé 696729.crdownload",
-    "_archive"
+    "_inbox/Non confirmé 696729.crdownload"
   ]
 }
