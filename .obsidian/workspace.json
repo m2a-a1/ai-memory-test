@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/4-lines-every-claude-md-needs.md",
+                "file": "_inbox/Yanli Liu – The 4 Lines Every CLAUDE.md Needs.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4-lines-every-claude-md-needs"
+              "title": "Yanli Liu – The 4 Lines Every CLAUDE.md Needs"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/4-lines-every-claude-md-needs.md",
+                "file": "_inbox/Yanli Liu – The 4 Lines Every CLAUDE.md Needs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Rétrolien pour 4-lines-every-claude-md-needs"
+              "title": "Rétrolien pour Yanli Liu – The 4 Lines Every CLAUDE.md Needs"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/4-lines-every-claude-md-needs.md",
+                "file": "_inbox/Yanli Liu – The 4 Lines Every CLAUDE.md Needs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Liens sortants de 4-lines-every-claude-md-needs"
+              "title": "Liens sortants de Yanli Liu – The 4 Lines Every CLAUDE.md Needs"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/4-lines-every-claude-md-needs.md",
+                "file": "_inbox/Yanli Liu – The 4 Lines Every CLAUDE.md Needs.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Plan de 4-lines-every-claude-md-needs"
+              "title": "Plan de Yanli Liu – The 4 Lines Every CLAUDE.md Needs"
             }
           }
         ]
@@ -186,8 +186,8 @@
   },
   "active": "b6287e88da8e776e",
   "lastOpenFiles": [
-    "notes/boring-businesses-create-billionaires.md",
     "notes/4-lines-every-claude-md-needs.md",
+    "notes/boring-businesses-create-billionaires.md",
     "notes/personal-harness-llm-wiki-obsidian.md",
     "_inbox/Yanli Liu – The 4 Lines Every CLAUDE.md Needs.md",
     "notes/deal-2026-05-14-sentinel-ai.md",
