@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_inbox/AvisBoost - SaaS listed on Flippa.md",
+                "file": "notes/deal-2026-05-14-hauszi.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AvisBoost - SaaS listed on Flippa"
+              "title": "deal-2026-05-14-hauszi"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_inbox/AvisBoost - SaaS listed on Flippa.md",
+                "file": "notes/deal-2026-05-14-hauszi.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Rétrolien pour AvisBoost - SaaS listed on Flippa"
+              "title": "Rétrolien pour deal-2026-05-14-hauszi"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_inbox/AvisBoost - SaaS listed on Flippa.md",
+                "file": "notes/deal-2026-05-14-hauszi.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Liens sortants de AvisBoost - SaaS listed on Flippa"
+              "title": "Liens sortants de deal-2026-05-14-hauszi"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_inbox/AvisBoost - SaaS listed on Flippa.md",
+                "file": "notes/deal-2026-05-14-hauszi.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Plan de AvisBoost - SaaS listed on Flippa"
+              "title": "Plan de deal-2026-05-14-hauszi"
             }
           }
         ]
@@ -184,8 +184,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e12ed34e004495ab",
+  "active": "b6287e88da8e776e",
   "lastOpenFiles": [
+    "_inbox/AvisBoost - SaaS listed on Flippa.md",
+    "_archive/Hintscope - SaaS listed on Flippa.md",
+    "_archive/Hauszi Media Network - Website listed on Flippa.md",
+    "notes/deal-2026-05-14-hintscope.md",
+    "notes/deal-2026-05-14-hauszi.md",
     "_inbox/Sentinel - SaaS listed on Flippa.md",
     "_inbox/Non confirmé 653254.crdownload",
     "_inbox/MyBestie－Mental Health Support - iOS App listed on Flippa.md",
@@ -200,7 +205,6 @@
     "notes/deal-2026-05-13-podlm.md",
     "_archive/AvisBoost - SaaS listed on Flippa.md",
     "_clipper-templates/README.md",
-    "_inbox/AvisBoost - SaaS listed on Flippa.md",
     "_archive/Deadline & Expiration Tracking SaaS with Automated Email_SMS Alerts - SaaS listed on Flippa.md",
     "_archive/AI Podcast Maker - PODLM - iOS App listed on Flippa.md",
     "_archive/Black Illustrations - Ecommerce Store listed on Flippa.md",
@@ -211,15 +215,11 @@
     "_inbox/Black Illustrations - Ecommerce Store listed on Flippa.md",
     "_inbox/Non confirmé 836984.crdownload",
     "notes/deal-2026-05-13-gamersvpn.md",
-    "_inbox/GamersVPN - Ecommerce Store listed on Flippa.md",
-    "teams/acquisition-desk/TEAM.md",
     "teams/acquisition-desk/team.yaml",
     "teams/acquisition-desk",
     "teams",
     "_clipper-templates/flippa.json",
-    "_archive/ForCar.org — VIN Decoder & Monroney Window Sticker Tool - Website listed on Flippa.md",
     "_clipper-templates",
-    "_inbox/ForCar.org — VIN Decoder & Monroney Window Sticker Tool - Website listed on Flippa.md",
     "Sans titre.canvas",
     "_inbox/Non confirmé 696729.crdownload",
     "_archive"
