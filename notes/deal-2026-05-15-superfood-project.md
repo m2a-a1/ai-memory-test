@@ -1,110 +1,87 @@
 ---
-title: "Deal — The Superfood Project (superfood-project.co.uk)"
+title: "Deal — Superfood Project (superfood-project.co.uk)"
 date: 2026-05-15
 tags: [projet-perso, a-approfondir]
 status: draft
-source: https://flippa.com/12845870-kids-superfood-boosters-brand-solving-nutrition-for-picky-eaters-strong-problem-solution-fit-addressing-a-highly-emotional-and-widespread-parenting-challenge
-verdict: APPROFONDIR
+source: https://flippa.com/12845870-kids-superfood-boosters-brand-solving-nutrition-for-picky-eaters-strong-problem-solution-fit-addressing-a-highly-emotional-and-widespread-parenting-challenge?buy_sell=SavedSearch
+verdict: PASSER
 workflow: quick_screen
 ---
 
 ## Résumé exécutif
 
-The Superfood Project Ltd est une marque UK de nutrition enfantine (poudres superfood pour enfants difficiles à table), opérationnelle depuis 3 ans, génération $226/mo de profit à 67% de marge. Enchère Flippa, reserve $6,700 (multiple 2.47x, dans les benchmarks e-commerce). Zéro présence SEO organique — le business est piloté par les réseaux sociaux et le bouche-à-oreille. Aucun flag critique identifié. **Verdict : ✅ APPROFONDIR — full evaluation recommandée.**
+E-commerce UK de 3 ans vendant des poudres superfood pour enfants (picky eaters). Profit déclaré de $226/mo à 67% de marge. Vendu aux enchères : mise à prix $1,340, réserve $6,700 (aucune offre à 30 jours de la fin). Verdict : **❌ PASSER** — les données financières sont invérifiables (aucun tableau mensuel), Ahrefs confirme zéro trafic organique sur 36 mois consécutifs malgré 3 ans d'activité, et un spike brutal de referring domains précède directement la mise en vente.
 
 ---
 
 ## Audit financier
 
 | Métrique | Valeur |
-|---|---|
-| Revenu déclaré (mensuel) | ~$337/mo (implicite: profit $226 à marge 67%) |
-| Profit déclaré (mensuel) | $226/mo |
-| Dépenses déclarées | ~$111/mo |
-| Marge | 67% |
-| Profit annualisé | $2,712 |
-| Prix demandé (reserve) | $6,700 (enchère, 30 jours, starting bid $1,340) |
-| Multiple au prix de reserve | 2.47x profit annuel |
-| Multiple benchmark (e-commerce) | 2–4x |
-| Spike détecté | Non vérifiable (pas de tableau mois par mois) |
-| Trend | Inconnu (données financières mensuelles absentes du clip) |
-| Score fiabilité financière | Moyenne |
+|----------|--------|
+| Profit mensuel déclaré | $226/mo |
+| Marge déclarée | 67% |
+| Revenu mensuel implicite | ~$337/mo |
+| Profit annualisé | ~$2,712 |
+| Prix demandé (réserve) | $6,700 |
+| Multiple (réserve) | 2.5× profit annuel |
+| Benchmark e-commerce | 2–4× |
+| Trend | Indéterminable (pas de tableau mensuel) |
+| Score fiabilité | **Faible** |
 
-**Observations :** Le multiple de 2.47x à reserve est dans la fourchette normale pour un business e-commerce physique avec 3 ans d'existence. Si l'enchère se conclut proches du starting bid ($1,340), le multiple serait de 0.49x — extraordinairement bas. Même au reserve ($6,700), le ratio reste raisonnable. Les revenus sont modestes ($337/mo) mais réels sur un horizon de 3 ans.
+Aucun tableau mensuel fourni (section "Financials" vide dans le clip). La donnée $226/mo est une déclaration du vendeur sans vérification possible.
 
 ---
 
-## Audit trafic — Vendeur vs. Ahrefs
+## Audit trafic — vendeur vs. Ahrefs
 
-| Métrique | Déclaré (listing/SEMRush) | Ahrefs | Delta |
-|---|---|---|---|
-| Trafic organique | Non précisé (business e-com/social) | **0 visites/mo** | Non applicable* |
-| Total keywords | 3 (SEMRush) | **0** | Minor |
-| Domain Rating / Authority Score | 7 (SEMRush) | **2.9 (DR Ahrefs)** | Méthodo différente |
-| Referring domains | 101 (SEMRush) | **76 (Ahrefs)** | ~25% écart |
-| Backlinks | 377 (SEMRush) | Non mesuré | — |
+| Métrique | Déclaré vendeur (SEMRush) | Ahrefs |
+|----------|--------------------------|--------|
+| Authority Score / DR | AS 7 | DR 2.9 |
+| Trafic organique estimé | "3 keywords" actifs | **0 visites/mo** |
+| Referring Domains | 101 | 76 (mai 2026) |
+| Backlinks | 377 | — |
+| Trend trafic 36 mois | Non communiqué | **0 sur toute la période** |
+| Score qualité trafic | — | **Faible** |
 
-*Note : Pour un business e-commerce physique vendu via réseaux sociaux (Instagram @superfoodproject), l'absence de trafic organique Google n'est pas anormale. Ce n'est pas un site contenu/SEO.
+Ahrefs ne détecte **aucun trafic organique** sur 36 mois consécutifs. Le site ne génère aucun visiteur via les moteurs de recherche — le trafic est exclusivement direct/social/email, non transférable et non vérifiable.
 
-**Historique DR Ahrefs :** Démarré à 0, pic à 4.2 en avril 2025, maintenant à 2.9 — légère décroissance sur un an.
+**Historique DR :** 0 jusqu'en fév. 2025 → pic 4.2 (avr. 2025) → déclin à 2.9 (mai 2026).
 
-**Historique referring domains :**
-
-| Période | Ref Domains Ahrefs |
-|---|---|
-| Jan 2025 | 23 |
-| Mar 2025 | 31 |
-| Déc 2025 | 37 |
-| Mar 2026 | 28 |
-| Avr 2026 | 42 |
-| Mai 2026 | **76** (spike) |
-
-Un doublement des ref domains en 1 mois (avril → mai 2026) est notable mais moins critique pour un business e-commerce dont la valeur ne repose pas sur le SEO.
+**Historique refdomains :** ~1 domaine de 2023 à juin 2024 → croissance lente jusqu'à 44 (jan. 2026) → **spike à 76 en mai 2026** (+81% en un mois, juste avant la vente).
 
 ---
 
 ## Red flags
 
-🟡 **ATTENTION — Pic de referring domains (mai 2026) :** 42 ref domains en avril → 76 en mai (+81% en 1 mois). Possible pre-sale link building. Dans le contexte d'un business e-commerce non SEO-dépendant, l'impact est limité mais mérite vérification.
+🔴 **CRITIQUE — Revenus non vérifiables** : section "Financials (monthly)" vide dans le clip. Aucun accès API (Stripe, Shopify) mentionné. Données agrégées uniquement, sans vérification indépendante possible.
 
-🟡 **ATTENTION — DR en déclin léger :** De 4.2 (avr'25) à 2.9 (mai'26) = -1.3 pts sur 13 mois. Pas un signal bloquant mais indique un profil SEO qui ne progresse pas.
+🟡 **ATTENTION — Zéro trafic organique sur 36 mois** : Ahrefs mesure 0 visite organique sur toute la période disponible malgré 3 ans d'activité et 76 referring domains. Tout le trafic est "dark" (direct/social/email), volatile et non vérifiable.
 
-🟡 **ATTENTION — Revenus modestes et données mensuelles absentes :** $337/mo de CA pour 3 ans d'existence — croissance limitée. L'absence de breakdown mois par mois empêche de vérifier la stabilité ou de détecter un spike de revenus avant vente.
+🟡 **ATTENTION — Spike referring domains avant vente** : bond 42 → 76 refdomains en mai 2026 (+81% en un mois), immédiatement avant la mise en vente. Pattern de link building artificiel.
 
-ℹ️ **INFO — Business physique :** Produit physique avec auto-fulfillment = dépendance fournisseur (ingrédients, packaging). Risques d'approvisionnement à évaluer en full evaluation.
+🟡 **ATTENTION — DR très faible (2.9)** : domaine sans autorité SEO mesurable après 3 ans.
 
-ℹ️ **INFO — Marché de niche :** Nutrition enfantine UK — marché émotionnel avec forte rétention potentielle, mais aussi forte réglementation sur les allégations nutritionnelles (EFSA/FSA).
+ℹ️ **INFO — Logistique physique** : self-fulfillment de produits physiques, complexité opérationnelle non nulle.
 
-ℹ️ **INFO — Modèle de distribution :** Actuellement direct DTC ; opportunités Amazon et retail mentionnées mais non exploitées.
-
----
-
-## Points à investiguer en full evaluation
-
-1. Breakdown financier mois par mois sur 24 mois (détecter saisonnalité et éventuel spike avant vente)
-2. Accès Shopify/WooCommerce : vérifier les commandes réelles, taux de retour, CLV
-3. Vérification des formulations produit : composition, fournisseurs, certifications (bio ? allergens ?)
-4. Base email/clients : taille réelle, taux d'ouverture, historique de ventes répétées
-5. Comptes sociaux : followers réels vs achetés ? Taux d'engagement ?
-6. Explication du spike de ref domains en mai 2026
-7. Modèle d'acquisition client actuel : est-ce organique ou ads ? Budget ?
-8. Réglementation FSA (Food Standards Agency) : allégations santé conformes ?
+ℹ️ **INFO — Zéro enchère** : réserve $6,700 avec 30 jours restants et aucune offre — désintérêt marché.
 
 ---
 
 ## Sources consultées
 
-- Clip Flippa (inbox) : `Superfood Project - Ecommerce Store listed on Flippa.md`
-- Ahrefs `site-explorer-metrics` : superfood-project.co.uk, 2026-05-15
-- Ahrefs `site-explorer-refdomains-history` : superfood-project.co.uk, mai 2024 → mai 2026
-- Ahrefs `site-explorer-domain-rating-history` : superfood-project.co.uk, mai 2024 → mai 2026
-- Web search : superfood-project.co.uk (identification du domaine), Trustpilot (disponible dans les résultats)
-- Wayback Machine : non consultée (aucun flag critique)
+- Clip Flippa : `_inbox/Superfood Project  - Ecommerce Store listed on Flippa.md`
+- Ahrefs `site-explorer-metrics` : superfood-project.co.uk, 2026-05-15, mode=subdomains
+- Ahrefs `site-explorer-metrics-history` : date_from=2023-01-01, select=org_traffic
+- Ahrefs `site-explorer-domain-rating-history` : date_from=2023-01-01
+- Ahrefs `site-explorer-refdomains-history` : date_from=2023-01-01
+- Web search : "The Superfood Project Ltd kids superfood boosters UK website domain" (identification domaine)
 
 ---
 
 ## Verdict quick_screen
 
-**✅ APPROFONDIR**
+**❌ PASSER**
 
-Aucun flag critique identifié. Le multiple est dans les benchmarks e-commerce, la marque existe depuis 3 ans, et l'absence de SEO s'explique par le modèle social/DTC. Les points de vigilance (spike ref domains, absence de détail financier mensuel, petits revenus) justifient une full evaluation avant de s'engager, mais ne bloquent pas la démarche. Lancer full_evaluation pour aller plus loin.
+1 flag critique (revenus invérifiables) + 3 flags attention. Règle : "1 critique + ≥2 attention → PASSER".
+
+Trafic organique nul sur 36 mois malgré 3 ans d'activité revendiqués. Sans données financières mensuelles ni présence SEO vérifiable, l'actif est trop opaque pour justifier une due diligence au prix de réserve.
