@@ -10,87 +10,85 @@ workflow: quick_screen
 
 ## Résumé exécutif
 
-The 7 Day Method est une marque de cours digitaux lancée en 2024 (< 12 mois), vendant deux produits autour du "faceless YouTube" et du web design via Meta Ads. $2,083/mo de profit déclaré à 75% de marge, prix réduit de 52% à $20,000 (multiple 0.8x). L'audit Ahrefs révèle zéro présence organique (DR = 0.0, 0 keyword, 0 trafic organique), et une multiplication par 4 des referring domains en 2 mois juste avant la vente — signal de link building artificiel pre-sale. Le business est entièrement dépendant de Meta Ads, ce qui le rend fragile pour tout acquéreur. **Verdict : ❌ PASSER.**
+Marque de cours digitaux (the7daymethod.com), 1 an d'ancienneté, $2,083/mo profit déclaré (75% marge), deux cours "faceless YouTube" et "web design IA". Prix réduit 52% (de $41,510 à $20,000). Verdict : **❌ PASSER** — revenus invérifiables (screenshots uniquement), DR=0 sur 14 mois consécutifs (zéro trafic organique), et le modèle présenté comme "passif" est en réalité entièrement dépendant d'un budget Meta Ads actif de $750/mo.
 
 ---
 
 ## Audit financier
 
 | Métrique | Valeur |
-|---|---|
-| Revenu déclaré (mensuel avg) | $2,791/mo |
-| Profit déclaré (mensuel avg) | $2,083/mo |
-| Ad spend (mensuel) | ~$750/mo |
-| Marge | 75% |
-| Profit annualisé (TTM) | $25,000 |
+|----------|--------|
+| Profit mensuel déclaré (avg) | $2,083/mo |
+| Revenu mensuel moyen | $2,791/mo |
+| Profit annuel (TTM) | $25,000 |
+| Dépenses pub Meta | ~$750/mo (~27% du revenu) |
 | Prix demandé | $20,000 (réduit de $41,510, -52%) |
-| Multiple calculé | **0.8x profit annuel** |
-| Multiple benchmark (cours digitaux < 12 mois) | 1–1.5x (après décote 40–50% pour âge) |
-| Revenue multiple | 0.6x |
-| Spike détecté | Non vérifiable (pas de tableau mois par mois) |
-| Trend | Inconnu (pas de breakdown mensuel fourni) |
-| Score fiabilité financière | Faible |
+| **Multiple réel** | **0.8× profit annuel** |
+| Benchmark cours/contenu < 12 mois | 1.0–1.5× (après décote 40–50%) |
+| Score fiabilité | **Faible** |
 
-**Observations :** Le multiple de 0.8x semble attractif en surface, mais il faut le rapporter au contexte : business < 12 mois, 100% dépendant de Meta Ads à ~$750/mo de spend. Si le CPA d'acquisition méta dérape ou si les campagnes ne sont pas transférables efficacement, les revenus peuvent s'effondrer immédiatement. La réduction de prix de 52% (de $41,510 à $20,000) signale une urgence à vendre que le vendeur ne justifie pas clairement.
+Le multiple bas (0.8×) semble attractif mais masque la réalité : sans les $750/mo de Meta Ads, le revenu s'effondre à zéro. La réduction de 52% sur le prix signale une difficulté à trouver preneur depuis plusieurs semaines. **Trend** : non communiqué mensuellement.
+
+**Test de cohérence** : $25,000 profit annuel pour un cours à ~$29 CPA (coût d'acquisition Meta déclaré $4, vraisemblablement $4 CPC et non CPA) — cohérence difficile à établir sans accès aux données publicitaires.
 
 ---
 
-## Audit trafic — Vendeur vs. Ahrefs
+## Audit trafic — vendeur vs. Ahrefs
 
-| Métrique | Déclaré (listing) | Ahrefs | Delta |
-|---|---|---|---|
-| Trafic organique | Non précisé (Meta Ads uniquement) | **0 visites/mo** | Non applicable* |
-| Total keywords | 0 (listing l'admet) | **0** | Cohérent |
-| Domain Rating | Non précisé | **0.0** | — |
-| Referring domains | 71 (listing) | **71 (Ahrefs — mai 2026)** | Cohérent |
-| Backlinks | 90 (listing) | Non mesuré | — |
+| Métrique | Déclaré vendeur (SEMRush) | Ahrefs |
+|----------|--------------------------|--------|
+| Authority Score / DR | AS 2 | **DR 0.0** (14 mois) |
+| Trafic organique | Néant (Meta Ads uniquement) | 0 |
+| Keywords | Non indiqué | 0 |
+| Referring Domains | 71 | 73 (mai 2026) |
+| Score qualité trafic | — | **Faible** |
 
-*Note : Le vendeur admet explicitement zéro trafic organique. Le business est entièrement paid (Meta Ads).
+DR=0.0 sur 14 mois consécutifs : Ahrefs attribue une autorité nulle au domaine malgré 73 referring domains — signe que les liens sont de très faible qualité (spam/PBN/forums). Aucun trafic organique passé ou présent. Le revenu est 100% dépendant d'un budget publicitaire actif.
 
-**Historique DR Ahrefs :** 0.0 sur toute l'histoire du domaine (avr'25 → avr'26) — jamais développé la moindre autorité organique.
+**Historique refdomains :**
 
-**Historique referring domains (🔴 signal critique) :**
+| Période | Refdomains |
+|---------|-----------|
+| Juil.–sep. 2024 | 1 |
+| Oct. 2024 | 6 (premier spike) |
+| Jan.–déc. 2025 | 7 → 49 (croissance) |
+| Jan. 2026 | 53 (pic historique) |
+| Fév.–mars 2026 | 34 → 18 (chute) |
+| Avr. 2026 | 34 |
+| **Mai 2026** | **73** (nouveau pic, juste avant vente) |
 
-| Période | Ref Domains Ahrefs |
-|---|---|
-| Sep 2025 | 47 |
-| Déc 2025 | 49 |
-| Jan 2026 | 53 |
-| Fév 2026 | 34 |
-| Mar 2026 | **18** (chute) |
-| Avr 2026 | 34 |
-| Mai 2026 | **71** (+294% sur mars) |
-
-Les ref domains ont quadruplé en 2 mois (18 en mars → 71 en mai), ce qui est d'autant plus anormal que le domaine a un DR de 0.0 et aucune présence organique. Ce spike artificiel n'a aucune explication organique plausible — c'est du link building pré-vente pour rendre le profil plus attractif.
+Pic absolu à 73 en mai 2026, immédiatement avant la mise en vente Flippa.
 
 ---
 
 ## Red flags
 
-🔴 **CRITIQUE — Pic de referring domains avant vente :** 18 ref domains (mars 2026) → 71 (mai 2026) = +294% en 2 mois. Sur un domaine à DR 0.0 sans présence organique, ce spike ne peut s'expliquer que par du link building artificiel destiné à embellir le profil avant cession.
+🔴 **CRITIQUE — Revenus non vérifiables** : aucun tableau mensuel dans le clip. Aucun accès API Stripe mentionné. Les $33,500 de revenus TTM sont déclarés via screenshots uniquement, sans vérification indépendante possible.
 
-🟡 **ATTENTION — Business < 12 mois :** Lancé en 2024, vendu dès la première année. Décote de 40–50% sur le benchmark s'applique. Le TTM est la seule référence disponible — impossible de valider la trajectoire long terme.
+🟡 **ATTENTION — Modèle "passif" trompeur** : le business requiert $750/mo de Meta Ads pour fonctionner. Stopper les ads = revenu à zéro. La présentation "turnkey passive income, under 1h/week" est fondamentalement inexacte.
 
-🟡 **ATTENTION — Dépendance Meta Ads unique :** Zero trafic organique. Tout le revenu repose sur les campagnes Meta. L'acquéreur doit maintenir le même CPA ($4), les mêmes audiences warm, et les mêmes créatifs — ce qui n'est jamais garanti lors d'une transition.
+🟡 **ATTENTION — DR=0 sur 14 mois** : Ahrefs attribue une autorité nulle malgré 73 refdomains. Backlinks de qualité insuffisante, aucune valeur SEO résiduelle.
 
-🟡 **ATTENTION — Prix réduit de 52% sans justification :** La réduction de $41,510 → $20,000 est une urgence à vendre non expliquée. Cela peut indiquer une chute de performance des campagnes ou d'autres problèmes non divulgués.
+🟡 **ATTENTION — Spike refdomains avant vente** : bond de 18 → 73 en mai 2026 (pic absolu du domaine). Pattern de link building artificiel immédiatement avant le listing.
 
-🟡 **ATTENTION — Revenus non vérifiables :** La plateforme mentionnée est "Express" (non précisé davantage). Les pixels Meta et l'historique de campagnes seront-ils vraiment transférables ? Stripe est mentionné mais aucune vérification via API n'est proposée explicitement.
+🟡 **ATTENTION — Réduction de prix 52%** : l'actif ne trouve pas preneur même après une réduction de moitié — signal fort de faible valeur perçue par le marché.
 
-ℹ️ **INFO — Niche très compétitive :** Les cours "faceless YouTube" et "web design IA" sont parmi les plus copiés/saturés du marché de la formation digitale en 2025-2026. La barrière à l'entrée concurrentielle est quasi-nulle.
+🟡 **ATTENTION — Business < 12 mois** : décote standard de 40–50% applicable. Historique trop court pour valider la pérennité du revenu.
 
-ℹ️ **INFO — Business < 12 mois :** Ce flag seul ne bloque pas, mais combiné aux autres, renforce le verdict.
+ℹ️ **INFO — Niche saturée** : "faceless YouTube" et "web design IA" sont des niches de cours fortement concurrentielles, se dépréciant rapidement avec l'évolution des outils IA.
+
+ℹ️ **INFO — Incohérence catégorie** : listing classé "Monetization: Ads" sur Flippa alors que le modèle est la vente de cours digitaux (one-time purchase + upsells).
 
 ---
 
 ## Sources consultées
 
-- Clip Flippa (inbox) : `The7daymethod.com - Website listed on Flippa.md`
-- Ahrefs `site-explorer-metrics` : the7daymethod.com, 2026-05-15
-- Ahrefs `site-explorer-refdomains-history` : the7daymethod.com, mai 2024 → mai 2026
-- Ahrefs `site-explorer-domain-rating-history` : the7daymethod.com, mai 2025 → avr 2026
-- Web search : non effectuée (flag critique suffisant + absence de flags Google penalty)
-- Wayback Machine : non consultée
+- Clip Flippa : `_inbox/The7daymethod.com - Website listed on Flippa.md`
+- Ahrefs `site-explorer-metrics` : the7daymethod.com, 2026-05-15, mode=subdomains
+- Ahrefs `site-explorer-metrics-history` : date_from=2024-05-01, select=org_traffic
+- Ahrefs `site-explorer-domain-rating-history` : date_from=2024-05-01
+- Ahrefs `site-explorer-refdomains-history` : date_from=2024-05-01
+- Web search : `"the7daymethod.com" OR "7 Day Method" Flippa review scam complaint`
 
 ---
 
@@ -98,4 +96,6 @@ Les ref domains ont quadruplé en 2 mois (18 en mars → 71 en mai), ce qui est 
 
 **❌ PASSER**
 
-Un flag critique (quadruplement des ref domains en 2 mois sur un domaine à DR 0.0) plus trois flags attention (< 12 mois, 100% Meta-dépendant, réduction de prix de 52% inexpliquée) aboutissent au verdict PASSER. La fragilité structurelle du modèle (aucun trafic organique, dépendance totale à la publicité payante pour générer des revenus sur des niches ultra-compétitives) rend le risque acquéreur trop élevé au regard du prix demandé.
+1 flag critique (revenus invérifiables) + 5 flags attention. Règle : "1 critique + ≥2 attention → PASSER".
+
+Le pitch "passive income" est fondamentalement trompeur : le revenu s'effondre sans Meta Ads actives. DR=0 sur 14 mois confirme l'absence totale de valeur SEO. La réduction de prix de 52% signale un actif qui ne se vend pas.
