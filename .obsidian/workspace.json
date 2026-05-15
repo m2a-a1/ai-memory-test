@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_inbox/Sky Finance - Saas & Software Projects listed on Flippa.md",
+                "file": "notes/deal-2026-05-14-hintscope.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Sky Finance - Saas & Software Projects listed on Flippa"
+              "title": "deal-2026-05-14-hintscope"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_inbox/Sky Finance - Saas & Software Projects listed on Flippa.md",
+                "file": "notes/deal-2026-05-14-hintscope.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Rétrolien pour Sky Finance - Saas & Software Projects listed on Flippa"
+              "title": "Rétrolien pour deal-2026-05-14-hintscope"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_inbox/Sky Finance - Saas & Software Projects listed on Flippa.md",
+                "file": "notes/deal-2026-05-14-hintscope.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Liens sortants de Sky Finance - Saas & Software Projects listed on Flippa"
+              "title": "Liens sortants de deal-2026-05-14-hintscope"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_inbox/Sky Finance - Saas & Software Projects listed on Flippa.md",
+                "file": "notes/deal-2026-05-14-hintscope.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Plan de Sky Finance - Saas & Software Projects listed on Flippa"
+              "title": "Plan de deal-2026-05-14-hintscope"
             }
           }
         ]
@@ -186,6 +186,9 @@
   },
   "active": "b6287e88da8e776e",
   "lastOpenFiles": [
+    "_inbox/Sky Finance - Saas & Software Projects listed on Flippa.md",
+    "_archive/Sky Finance - Saas & Software Projects listed on Flippa.md",
+    "notes/deal-2026-05-15-sky-finance.md",
     "_archive/Superfood Project  - Ecommerce Store listed on Flippa.md",
     "notes/deal-2026-05-15-motorcycleinsurance-org-uk.md",
     "notes/deal-2026-05-15-quickdoc-ca.md",
@@ -209,11 +212,8 @@
     "_inbox/Non confirmé 700153.crdownload",
     "_inbox/The7daymethod.com - Website listed on Flippa.md",
     "_inbox/Education - Other Projects listed on Flippa.md",
-    "_inbox/Sky Finance - Saas & Software Projects listed on Flippa.md",
     "_inbox/Automotive - Service Business listed on Flippa.md",
     "_inbox/Non confirmé 164714.crdownload",
-    "_archive/Game Developer Asset Store (PixelGrin.com) - SaaS listed on Flippa.md",
-    "_inbox/Game Developer Asset Store (PixelGrin.com) - SaaS listed on Flippa.md",
     "_inbox/Non confirmé 644592.crdownload",
     "_clipper-templates/medium.json",
     "sentinel-ai-due-diligence.docx",
