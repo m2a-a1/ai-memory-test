@@ -11,10 +11,14 @@
             "id": "b6287e88da8e776e",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Vue graphique"
+              "type": "markdown",
+              "state": {
+                "file": "teams/acquisition-desk/TEAM.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "TEAM"
             }
           }
         ]
@@ -90,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "teams/acquisition-desk/TEAM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Rétroliens"
+              "title": "Rétrolien pour TEAM"
             }
           },
           {
@@ -108,11 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "teams/acquisition-desk/TEAM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Liens sortants"
+              "title": "Liens sortants de TEAM"
             }
           },
           {
@@ -150,12 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "teams/acquisition-desk/TEAM.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Plan"
+              "title": "Plan de TEAM"
             }
           }
         ]
@@ -179,6 +186,7 @@
   },
   "active": "b6287e88da8e776e",
   "lastOpenFiles": [
+    "notes/deal-2026-05-15-docubills.md",
     "notes/deal-2026-05-14-mybestie.md",
     "notes/deal-2026-05-15-talezzi.md",
     "Sans titre.base",
@@ -190,7 +198,6 @@
     "notes/talezzi-questionnaire-vendeur.docx",
     "notes/talezzi-contact-message.md",
     "notes/deal-2026-05-15-turnipp.md",
-    "notes/deal-2026-05-15-docubills.md",
     "notes/deal-2026-05-15-authenticdatasource.md",
     "notes/deal-2026-05-14-pixelgrin.md",
     "_archive/Turnipp - Marketplace listed on Flippa.md",
