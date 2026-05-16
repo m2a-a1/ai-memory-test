@@ -11,14 +11,10 @@
             "id": "b6287e88da8e776e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/deal-2026-05-15-talezzi.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "deal-2026-05-15-talezzi"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Vue graphique"
             }
           }
         ]
@@ -94,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/deal-2026-05-15-talezzi.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +99,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Rétrolien pour deal-2026-05-15-talezzi"
+              "title": "Rétroliens"
             }
           },
           {
@@ -113,12 +108,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/deal-2026-05-15-talezzi.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Liens sortants de deal-2026-05-15-talezzi"
+              "title": "Liens sortants"
             }
           },
           {
@@ -156,13 +150,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/deal-2026-05-15-talezzi.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Plan de deal-2026-05-15-talezzi"
+              "title": "Plan"
             }
           }
         ]
@@ -186,9 +179,10 @@
   },
   "active": "b6287e88da8e776e",
   "lastOpenFiles": [
+    "notes/deal-2026-05-14-mybestie.md",
+    "notes/deal-2026-05-15-talezzi.md",
     "Sans titre.base",
     "Sans titre.canvas",
-    "notes/deal-2026-05-15-talezzi.md",
     "_templates/skills/acquisition-contact/gen_questionnaire_template.py",
     "_templates/skills/acquisition-contact/SKILL.md",
     "_templates/skills/acquisition-contact",
@@ -213,7 +207,6 @@
     "_archive/Superfood Project  - Ecommerce Store listed on Flippa.md",
     "notes/deal-2026-05-15-motorcycleinsurance-org-uk.md",
     "notes/deal-2026-05-15-quickdoc-ca.md",
-    "notes/deal-2026-05-14-mybestie.md",
     "notes/deal-2026-05-15-vintaro-chess.md",
     "notes/deal-2026-05-15-the7daymethod.md",
     "notes/deal-2026-05-15-superfood-project.md",
@@ -221,7 +214,6 @@
     "_inbox/Non confirmé 700153.crdownload",
     "_inbox/Non confirmé 164714.crdownload",
     "_inbox/Non confirmé 644592.crdownload",
-    "_clipper-templates/medium.json",
-    "sentinel-ai-due-diligence.docx"
+    "_clipper-templates/medium.json"
   ]
 }
