@@ -1,45 +1,50 @@
 ---
-title: "Message de prise de contact — Talezzi.com"
+title: "Message de prise de contact — Talezzi.com (v2)"
 date: 2026-05-16
 tags: [projet-perso, acquisition]
-status: draft
+status: active
 source: "deal-2026-05-15-talezzi"
 ---
 
 # Message de prise de contact — Talezzi.com
 
-> **Contexte :** Message à envoyer via Flippa. Angle : acheteur sérieux mais prudent.
-> Prix non mentionné. Focus : Bible de l'univers, workflow de production, droits IP.
+> **Contexte :** Message à envoyer via Flippa.
+> Angle : acheteur sérieux mais prudent.
+> Prix non mentionné. Ne révèle pas la stratégie multi-canaux ni la vision multi-univers.
+> Ancré sur : profil dev technique + intérêt niche diaspora + three focus areas (Bible, workflow, IP).
 
 ---
 
 ## Message (EN)
 
-Subject: Serious interest in Talezzi.com — a few questions before moving forward
+Subject: Serious interest in Talezzi — due diligence questions before moving forward
 
 Hi,
 
-I came across the Talezzi listing on Flippa and read through it carefully. I appreciate the transparency about the pre-revenue stage — it actually makes the listing more credible, not less.
+I've read through the Talezzi listing carefully, and I want to be upfront: what caught my attention most wasn't the number of languages or the page count — it was the Universe Bible. A structured narrative foundation that can drive content creation across formats and markets is genuinely rare, and it changes what this asset actually is.
 
-The multilingual angle for children's content is genuinely interesting to me, particularly the potential around diaspora communities in Europe where platforms like Epic! or Storyweaver don't really play. The technical stack (React + Vite + TypeScript, Docker Compose) also looks solid and maintainable, which matters a lot for a handover.
+A bit of context on my end: I'm a developer with a background in cloud infrastructure, currently building products at the intersection of technology and content. The children's multilingual space — particularly for diaspora communities in Europe — is a niche I've been watching for a while. Talezzi fits a direction I'm actively exploring.
 
-Before I go further, I have a few questions I'd like to understand better — I've put them together in a short document I'd like to share with you. They're mostly around three areas:
+Before I go further, there are three things I need to understand properly:
 
-- **The Universe Bible**: how it's structured, how it drives content creation, and what the production workflow looks like in practice
-- **IP ownership**: who created the stories and illustrations, and how the rights are documented
-- **A look at the codebase**: I'd appreciate read access to the GitHub repo as part of due diligence
+How the Universe Bible works in practice — its structure, how it constrains or enables new story creation, and what the production workflow looks like end to end.
 
-I'm a serious buyer but I move carefully — I'd rather ask the right questions upfront than waste your time or mine. If you're open to it, I'll share the document and we can take it from there.
+The IP situation — who created the stories and illustrations, whether any AI tooling was involved and under what terms, and how rights are documented.
 
-Looking forward to hearing from you.
+The codebase — I'd like read access to the GitHub repo as part of due diligence.
 
-Best regards,
+I've put these questions together in a short document I'd like to share with you. Nothing intrusive — I'd rather ask clearly upfront than waste your time or mine further down the process.
+
+If you're open to it, let me know and I'll send the link.
+
+Best,
 Marc-Antoine
 
 ---
 
 ## Notes d'utilisation
 
-- Envoyer via la messagerie Flippa sur la fiche de listing
-- Partager le document questionnaire en même temps ou juste après (lien Google Drive)
+- Envoyer via la messagerie Flippa sur la fiche listing #12767079
+- Partager le lien Google Drive du questionnaire dans la foulée ou dans un second message
 - Délai de réponse attendu : 2–5 jours ouvrés (vendeur basé aux Pays-Bas)
+- Ne pas relancer avant 5 jours ouvrés
