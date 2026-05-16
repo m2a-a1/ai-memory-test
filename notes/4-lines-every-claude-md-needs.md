@@ -25,4 +25,4 @@ Aucun lien identifié.
 
 ---
 
-*Article original clipé dans [[_inbox/Yanli Liu – The 4 Lines Every CLAUDE.md Needs]]*
+*Article original clipé dans [[Yanli Liu – The 4 Lines Every CLAUDE.md Needs]]*

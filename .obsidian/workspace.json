@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/deal-2026-05-14-pixelgrin.md",
+                "file": "notes/deal-2026-05-15-talezzi.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "deal-2026-05-14-pixelgrin"
+              "title": "deal-2026-05-15-talezzi"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/deal-2026-05-14-pixelgrin.md",
+                "file": "notes/deal-2026-05-15-talezzi.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Rétrolien pour deal-2026-05-14-pixelgrin"
+              "title": "Rétrolien pour deal-2026-05-15-talezzi"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/deal-2026-05-14-pixelgrin.md",
+                "file": "notes/deal-2026-05-15-talezzi.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Liens sortants de deal-2026-05-14-pixelgrin"
+              "title": "Liens sortants de deal-2026-05-15-talezzi"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/deal-2026-05-14-pixelgrin.md",
+                "file": "notes/deal-2026-05-15-talezzi.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Plan de deal-2026-05-14-pixelgrin"
+              "title": "Plan de deal-2026-05-15-talezzi"
             }
           }
         ]
@@ -186,12 +186,14 @@
   },
   "active": "b6287e88da8e776e",
   "lastOpenFiles": [
+    "notes/deal-2026-05-15-turnipp.md",
+    "notes/deal-2026-05-15-docubills.md",
+    "notes/deal-2026-05-15-authenticdatasource.md",
+    "notes/deal-2026-05-14-pixelgrin.md",
     "_archive/Turnipp - Marketplace listed on Flippa.md",
     "_archive/Talezzi.com - Website listed on Flippa.md",
     "_archive/AuthenticDataSource.com - SaaS listed on Flippa.md",
-    "notes/deal-2026-05-15-turnipp.md",
     "notes/deal-2026-05-15-talezzi.md",
-    "notes/deal-2026-05-15-authenticdatasource.md",
     "_inbox/Talezzi.com - Website listed on Flippa.md",
     "_inbox/Non confirmé 283629.crdownload",
     "_inbox/Turnipp - Marketplace listed on Flippa.md",
@@ -204,14 +206,12 @@
     "notes/deal-2026-05-15-motorcycleinsurance-org-uk.md",
     "notes/deal-2026-05-15-quickdoc-ca.md",
     "notes/deal-2026-05-14-mybestie.md",
-    "notes/deal-2026-05-14-pixelgrin.md",
     "notes/deal-2026-05-15-vintaro-chess.md",
     "notes/deal-2026-05-15-the7daymethod.md",
     "notes/deal-2026-05-15-superfood-project.md",
     "notes/deal-2026-05-15-quickdoc.md",
     "notes/deal-2026-05-15-motorcycle-insurance.md",
-    "notes/deal-2026-05-15-docubills.md",
-    "_inbox/Yanli Liu – The 4 Lines Every CLAUDE.md Needs.md",
+    "_archive/Yanli Liu – The 4 Lines Every CLAUDE.md Needs.md",
     "_archive/Education - Other Projects listed on Flippa.md",
     "_inbox/Non confirmé 700153.crdownload",
     "_inbox/Non confirmé 164714.crdownload",
