@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "teams/acquisition-desk/TEAM.md",
+                "file": "_archive/Roan Brasil Monteiro – Building a Complete Personal Harness_ LLM Wiki + Developer’s Second Brain in Obsidian.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TEAM"
+              "title": "Roan Brasil Monteiro – Building a Complete Personal Harness_ LLM Wiki + Developer’s Second Brain in Obsidian"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "teams/acquisition-desk/TEAM.md",
+                "file": "_archive/Roan Brasil Monteiro – Building a Complete Personal Harness_ LLM Wiki + Developer’s Second Brain in Obsidian.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Rétrolien pour TEAM"
+              "title": "Rétrolien pour Roan Brasil Monteiro – Building a Complete Personal Harness_ LLM Wiki + Developer’s Second Brain in Obsidian"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "teams/acquisition-desk/TEAM.md",
+                "file": "_archive/Roan Brasil Monteiro – Building a Complete Personal Harness_ LLM Wiki + Developer’s Second Brain in Obsidian.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Liens sortants de TEAM"
+              "title": "Liens sortants de Roan Brasil Monteiro – Building a Complete Personal Harness_ LLM Wiki + Developer’s Second Brain in Obsidian"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "teams/acquisition-desk/TEAM.md",
+                "file": "_archive/Roan Brasil Monteiro – Building a Complete Personal Harness_ LLM Wiki + Developer’s Second Brain in Obsidian.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Plan de TEAM"
+              "title": "Plan de Roan Brasil Monteiro – Building a Complete Personal Harness_ LLM Wiki + Developer’s Second Brain in Obsidian"
             }
           }
         ]
@@ -184,8 +184,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b6287e88da8e776e",
+  "active": "e12ed34e004495ab",
   "lastOpenFiles": [
+    "_inbox/Yanli Liu – Anthropic’s Engineer Said Kill Markdown. Here’s What He Actually Meant..md",
+    "_inbox/Ana Bildea, PhD – How to Build Production-Ready AI Agents_ MCP, CLI, and Skills — the Right Tool for the Right Job.md",
+    "_inbox/Non confirmé 890593.crdownload",
+    "teams/acquisition-desk/TEAM.md",
     "notes/deal-2026-05-15-docubills.md",
     "notes/deal-2026-05-14-mybestie.md",
     "notes/deal-2026-05-15-talezzi.md",
@@ -216,11 +220,8 @@
     "notes/deal-2026-05-15-quickdoc-ca.md",
     "notes/deal-2026-05-15-vintaro-chess.md",
     "notes/deal-2026-05-15-the7daymethod.md",
-    "notes/deal-2026-05-15-superfood-project.md",
-    "notes/deal-2026-05-15-quickdoc.md",
     "_inbox/Non confirmé 700153.crdownload",
     "_inbox/Non confirmé 164714.crdownload",
-    "_inbox/Non confirmé 644592.crdownload",
-    "_clipper-templates/medium.json"
+    "_inbox/Non confirmé 644592.crdownload"
   ]
 }
