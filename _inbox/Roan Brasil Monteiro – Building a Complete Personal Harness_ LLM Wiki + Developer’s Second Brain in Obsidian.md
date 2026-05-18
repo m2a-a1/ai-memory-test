@@ -1,19 +1,6 @@
 ---
 title: "Building a Complete Personal Harness: LLM Wiki + Developer’s Second Brain in Obsidian"
 author:
-  - "Roan Brasil Monteiro"
-published: 2026-05-03
-source: "https://medium.com/@roanmonteiro/building-a-complete-personal-harness-llm-wiki-developers-second-brain-in-obsidian-d7b61c7398ff"
-image: "https://miro.medium.com/v2/resize:fit:1200/1*06SRbFM1GVKJIg0MnCx_4w.png"
-created: 2026-05-14
-tags:
-  - "veille-tech"
-  - "medium"
-status: "draft"
----
----
-title: "Building a Complete Personal Harness: LLM Wiki + Developer’s Second Brain in Obsidian"
-author:
   - "[[Roan Brasil Monteiro]]"
 published: 2026-05-03T03:35:45Z
 source: "https://medium.com/@roanmonteiro/building-a-complete-personal-harness-llm-wiki-developers-second-brain-in-obsidian-d7b61c7398ff"
