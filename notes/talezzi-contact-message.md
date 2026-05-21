@@ -42,6 +42,21 @@ Marc-Antoine
 
 ---
 
+## Message de réponse — accusé de réception (EN)
+
+Hi Turkmen,
+
+Thank you — that's exactly the kind of transparency that makes due diligence straightforward. Your answers covered most of what I needed to know upfront, which I genuinely appreciate.
+
+Since you've already addressed several of my questions directly, I'm going to update the document to reflect that and focus it on the remaining open points. I'll send you the updated link shortly.
+
+Looking forward to continuing from there.
+
+Best,
+Marc-Antoine
+
+---
+
 ## Notes d'utilisation
 
 - Envoyer via la messagerie Flippa sur la fiche listing #12767079
