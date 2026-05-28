@@ -1,8 +1,7 @@
 ---
 title: "How to Build Production-Ready AI Agents: MCP, CLI, and Skills — the Right Tool for the Right Job"
 author:
-  - "Ana Bildea"
-  - "PhD"
+  - "Ana Bildea, PhD"
 published: 2026-05-02
 source: "https://medium.com/agentic-builders/how-to-build-production-ready-ai-agents-mcp-cli-and-skills-the-right-tool-for-the-right-job-701dc102863f"
 image: "https://miro.medium.com/v2/resize:fit:1200/1*erWJQjhet4xM3YWGgANdmw.png"
@@ -14,19 +13,6 @@ tags:
   - "architecture"
   - "a-approfondir"
 status: "active"
----
----
-title: "How to Build Production-Ready AI Agents: MCP, CLI, and Skills — the Right Tool for the Right Job"
-author:
-  - "[[Ana Bildea, PhD]]"
-published: 2026-05-02T12:33:58Z
-source: "https://medium.com/agentic-builders/how-to-build-production-ready-ai-agents-mcp-cli-and-skills-the-right-tool-for-the-right-job-701dc102863f"
-image: "https://miro.medium.com/v2/resize:fit:1200/1*erWJQjhet4xM3YWGgANdmw.png"
-created: 2026-05-18T09:19:47+02:00
-tags:
-  - "veille-tech"
-  - "medium"
-status: draft
 ---
 ![How to Build Production-Ready AI Agents: MCP, CLI, and Skills — the Right Tool for the Right Job](https://miro.medium.com/v2/resize:fit:1200/1*erWJQjhet4xM3YWGgANdmw.png)
 

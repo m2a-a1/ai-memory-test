@@ -13,19 +13,6 @@ tags:
   - "architecture"
 status: "active"
 ---
----
-title: "Anthropic’s Engineer Said Kill Markdown. Here’s What He Actually Meant."
-author:
-  - "[[Yanli Liu]]"
-published: 2026-05-15T00:07:40Z
-source: "https://medium.com/generative-ai/anthropics-engineer-said-kill-markdown-here-s-what-he-actually-meant-36bee00c0ca2"
-image: "https://miro.medium.com/v2/da:true/resize:fit:1200/0*ITstR02aTfQsF2bV"
-created: 2026-05-18T09:22:35+02:00
-tags:
-  - "veille-tech"
-  - "medium"
-status: draft
----
 ![Anthropic’s Engineer Said Kill Markdown. Here’s What He Actually Meant.](https://miro.medium.com/v2/da:true/resize:fit:1200/0*ITstR02aTfQsF2bV)
 
 > HTML vs Markdown ： Here’s the Decision Tree Both Sides Needed.
