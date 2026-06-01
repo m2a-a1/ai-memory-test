@@ -9,7 +9,9 @@ created: 2026-05-31
 tags:
   - "veille-tech"
   - "medium"
-status: "draft"
+  - "agent-ia"
+  - "architecture"
+status: "active"
 ---
 ---
 title: "SDD Writing Specifications for AI: BDD as the Missing Link — Spec-Driven Development"

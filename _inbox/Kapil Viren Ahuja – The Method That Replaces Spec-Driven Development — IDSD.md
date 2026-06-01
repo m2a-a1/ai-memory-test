@@ -9,7 +9,9 @@ created: 2026-05-31
 tags:
   - "veille-tech"
   - "medium"
-status: "draft"
+  - "agent-ia"
+  - "architecture"
+status: "active"
 ---
 ---
 title: "The Method That Replaces Spec-Driven Development — IDSD"
