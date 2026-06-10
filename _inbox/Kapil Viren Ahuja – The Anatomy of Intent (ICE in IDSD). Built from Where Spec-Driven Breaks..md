@@ -13,19 +13,6 @@ tags:
   - "architecture"
 status: "active"
 ---
----
-title: "The Anatomy of Intent (ICE in IDSD). Built from Where Spec-Driven Breaks."
-author:
-  - "[[Kapil Viren Ahuja]]"
-published: 2026-05-27T04:22:32Z
-source: "https://medium.com/activated-thinker/the-anatomy-of-intent-ice-in-idsd-built-from-where-spec-driven-breaks-1597e5a16659"
-image: "https://miro.medium.com/v2/resize:fit:1200/1*EyCt4L3jSqSbBiudxtaNRw.png"
-created: 2026-05-31T12:15:51+02:00
-tags:
-  - "veille-tech"
-  - "medium"
-status: draft
----
 ![The Anatomy of Intent (ICE in IDSD). Built from Where Spec-Driven Breaks.](https://miro.medium.com/v2/resize:fit:1200/1*EyCt4L3jSqSbBiudxtaNRw.png)
 
 > You're reading via Kapil Viren Ahuja's Friend Link. Upgrade to access the best of Medium.

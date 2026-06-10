@@ -13,19 +13,6 @@ tags:
   - "architecture"
 status: "active"
 ---
----
-title: "The Method That Replaces Spec-Driven Development — IDSD"
-author:
-  - "[[Kapil Viren Ahuja]]"
-published: 2026-05-20T04:05:44Z
-source: "https://medium.com/activated-thinker/the-method-that-replaces-spec-driven-development-idsd-66e921f6cdf7"
-image: "https://miro.medium.com/v2/resize:fit:1200/1*jJBwv0_H_9CbyGauuZCoiQ.png"
-created: 2026-05-31T12:13:42+02:00
-tags:
-  - "veille-tech"
-  - "medium"
-status: draft
----
 ![The Method That Replaces Spec-Driven Development — IDSD](https://miro.medium.com/v2/resize:fit:1200/1*jJBwv0_H_9CbyGauuZCoiQ.png)
 
 > I have been saying Spec-Driven Development is a problem, and why. This is the first time I show the fix, and it ends somewhere the saying-so never did, on the client’s invoice.

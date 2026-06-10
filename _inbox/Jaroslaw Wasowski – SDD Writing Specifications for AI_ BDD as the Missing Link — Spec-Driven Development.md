@@ -13,19 +13,6 @@ tags:
   - "architecture"
 status: "active"
 ---
----
-title: "SDD Writing Specifications for AI: BDD as the Missing Link — Spec-Driven Development"
-author:
-  - "[[Jaroslaw Wasowski]]"
-published: 2026-04-28T15:55:18Z
-source: "https://medium.com/@wasowski.jarek/sdd-writing-specifications-for-ai-bdd-as-the-missing-link-spec-driven-development-ad1b540b7f75"
-image: "https://miro.medium.com/v2/resize:fit:1200/1*sOB8nCSssnyNJpNdl8TJng.png"
-created: 2026-05-31T12:16:42+02:00
-tags:
-  - "veille-tech"
-  - "medium"
-status: draft
----
 ![SDD Writing Specifications for AI: BDD as the Missing Link — Spec-Driven Development](https://miro.medium.com/v2/resize:fit:1200/1*sOB8nCSssnyNJpNdl8TJng.png)
 
 > BDD is the missing specification language in the era when AI writes code. One Given/When/Then scenario = business spec + unit, integration, E2E, UAT, and regression tests.
